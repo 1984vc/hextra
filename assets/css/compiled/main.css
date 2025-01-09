@@ -1146,6 +1146,10 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.hx-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .hx-pb-8 {
   padding-bottom: 2rem;
 }
@@ -2724,6 +2728,10 @@ body:is(html[class~="dark"] *) {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.before\:hx-content-\[\"\"\]::before {
+  --tw-content: "";
+  content: var(--tw-content);
+}
 .before\:hx-content-\[\'\#\'\]::before {
   --tw-content: '#';
   content: var(--tw-content);
@@ -3449,6 +3457,14 @@ body:is(html[class~="dark"] *) {
 
   .md\:hx-pt-12 {
     padding-top: 3rem;
+  }
+
+  .md\:hx-pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:hx-text-3xl {
+    font-size: 1.875rem;
   }
 
   .md\:hx-text-5xl {
